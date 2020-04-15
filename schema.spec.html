@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
+    <title>__Schema</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
+</head>
+<body class="slds-scrollable--y">
+    <nav class="slds-grid slds-grid--vertical slds-col--rule-right">
+        <header class="slds-p-around--medium slds-col slds-shrik slds-grow-none">
+            <button class="slds-button slds-button--icon slds-float--right js-toggle-navigation less-than-medium">
+                <i class="material-icons">close</i>
+            </button>
+                <h3 class="slds-text-heading--medium"><a href="./">GraphQL Schema</a></h3>
+            <div class="slds-p-top--small">
+                <input id="type-search" type="text" placeholder="Search a type" autofocus="" class="slds-input" />
+            </div>
+        </header>
+        <div id="navication-scroll" class="slds-scrollable--y slds-col slds-grow">
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">Schema</h4>
+    <ul>
+        <li  title="Query">
+            <a href="query.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Query
+            </a>
+        </li>
+        <li  title="Mutation">
+            <a href="mutation.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Mutation
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">Scalars</h4>
+    <ul>
+        <li  title="Boolean">
+            <a href="boolean.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Boolean
+            </a>
+        </li>
+        <li  title="Date">
+            <a href="date.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Date
+            </a>
+        </li>
+        <li  title="DateTime">
+            <a href="datetime.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                DateTime
+            </a>
+        </li>
+        <li  title="Float">
+            <a href="float.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Float
+            </a>
+        </li>
+        <li  title="GenericScalar">
+            <a href="genericscalar.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                GenericScalar
+            </a>
+        </li>
+        <li  title="ID">
+            <a href="id.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ID
+            </a>
+        </li>
+        <li  title="Int">
+            <a href="int.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Int
+            </a>
+        </li>
+        <li  title="JSONString">
+            <a href="jsonstring.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                JSONString
+            </a>
+        </li>
+        <li  title="String">
+            <a href="string.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                String
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">Enums</h4>
+    <ul>
+        <li  title="StreamType">
+            <a href="streamtype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                StreamType
+            </a>
+        </li>
+        <li  title="TaskDifficulty">
+            <a href="taskdifficulty.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                TaskDifficulty
+            </a>
+        </li>
+        <li  title="TaskLogPoints">
+            <a href="tasklogpoints.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                TaskLogPoints
+            </a>
+        </li>
+        <li  title="TaskLogStatus">
+            <a href="tasklogstatus.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                TaskLogStatus
+            </a>
+        </li>
+        <li  title="TaskPoints">
+            <a href="taskpoints.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                TaskPoints
+            </a>
+        </li>
+        <li  title="__DirectiveLocation">
+            <a href="directivelocation.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __DirectiveLocation
+            </a>
+        </li>
+        <li  title="__TypeKind">
+            <a href="typekind.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __TypeKind
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">Objects</h4>
+    <ul>
+        <li  title="applicationObj">
+            <a href="applicationobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                applicationObj
+            </a>
+        </li>
+        <li  title="applicationsListObj">
+            <a href="applicationslistobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                applicationsListObj
+            </a>
+        </li>
+        <li  title="AtObj">
+            <a href="atobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                AtObj
+            </a>
+        </li>
+        <li  title="attendanceDateObj">
+            <a href="attendancedateobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                attendanceDateObj
+            </a>
+        </li>
+        <li  title="AttendanceLogObj">
+            <a href="attendancelogobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                AttendanceLogObj
+            </a>
+        </li>
+        <li  title="attendanceModuleObj">
+            <a href="attendancemoduleobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                attendanceModuleObj
+            </a>
+        </li>
+        <li  title="attendanceStatObj">
+            <a href="attendancestatobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                attendanceStatObj
+            </a>
+        </li>
+        <li  title="attendanceUserObj">
+            <a href="attendanceuserobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                attendanceUserObj
+            </a>
+        </li>
+        <li  title="AvatarObj">
+            <a href="avatarobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                AvatarObj
+            </a>
+        </li>
+        <li  title="clubAttendanceObj">
+            <a href="clubattendanceobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                clubAttendanceObj
+            </a>
+        </li>
+        <li  title="clubStatusObj">
+            <a href="clubstatusobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                clubStatusObj
+            </a>
+        </li>
+        <li  title="CreateUser">
+            <a href="createuser.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                CreateUser
+            </a>
+        </li>
+        <li  title="dailyAttendanceObj">
+            <a href="dailyattendanceobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                dailyAttendanceObj
+            </a>
+        </li>
+        <li  title="dailyAttObj">
+            <a href="dailyattobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                dailyAttObj
+            </a>
+        </li>
+        <li  title="dailyStatusObj">
+            <a href="dailystatusobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                dailyStatusObj
+            </a>
+        </li>
+        <li  title="dailyStatusUpdateObj">
+            <a href="dailystatusupdateobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                dailyStatusUpdateObj
+            </a>
+        </li>
+        <li  title="EntryObj">
+            <a href="entryobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EntryObj
+            </a>
+        </li>
+        <li  title="eventObj">
+            <a href="eventobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                eventObj
+            </a>
+        </li>
+        <li  title="EventObj">
+            <a href="eventobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                EventObj
+            </a>
+        </li>
+        <li  title="formDataObj">
+            <a href="formdataobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                formDataObj
+            </a>
+        </li>
+        <li  title="FormDataObj">
+            <a href="formdataobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                FormDataObj
+            </a>
+        </li>
+        <li  title="formDetailsObj">
+            <a href="formdetailsobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                formDetailsObj
+            </a>
+        </li>
+        <li  title="FormFieldObj">
+            <a href="formfieldobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                FormFieldObj
+            </a>
+        </li>
+        <li  title="FormObj">
+            <a href="formobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                FormObj
+            </a>
+        </li>
+        <li  title="getLeaveRecordsObj">
+            <a href="getleaverecordsobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                getLeaveRecordsObj
+            </a>
+        </li>
+        <li  title="GroupObj">
+            <a href="groupobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                GroupObj
+            </a>
+        </li>
+        <li  title="LeaveRecordObj">
+            <a href="leaverecordobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                LeaveRecordObj
+            </a>
+        </li>
+        <li  title="liveAttendanceObj">
+            <a href="liveattendanceobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                liveAttendanceObj
+            </a>
+        </li>
+        <li  title="memberDidNotSendObj">
+            <a href="memberdidnotsendobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                memberDidNotSendObj
+            </a>
+        </li>
+        <li  title="memberPresentObj">
+            <a href="memberpresentobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                memberPresentObj
+            </a>
+        </li>
+        <li  title="membersAbsentObj">
+            <a href="membersabsentobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                membersAbsentObj
+            </a>
+        </li>
+        <li  title="memberSentObj">
+            <a href="membersentobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                memberSentObj
+            </a>
+        </li>
+        <li  title="MessageObj">
+            <a href="messageobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                MessageObj
+            </a>
+        </li>
+        <li  title="ObtainJSONWebToken">
+            <a href="obtainjsonwebtoken.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ObtainJSONWebToken
+            </a>
+        </li>
+        <li  title="PasswordObj">
+            <a href="passwordobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                PasswordObj
+            </a>
+        </li>
+        <li  title="PortalObj">
+            <a href="portalobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                PortalObj
+            </a>
+        </li>
+        <li  title="ProfileObj">
+            <a href="profileobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                ProfileObj
+            </a>
+        </li>
+        <li  title="Refresh">
+            <a href="refresh.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Refresh
+            </a>
+        </li>
+        <li  title="responseObj">
+            <a href="responseobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                responseObj
+            </a>
+        </li>
+        <li  title="Revoke">
+            <a href="revoke.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Revoke
+            </a>
+        </li>
+        <li  title="rsvpResponseObj">
+            <a href="rsvpresponseobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                rsvpResponseObj
+            </a>
+        </li>
+        <li  title="SocialProfileObj">
+            <a href="socialprofileobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                SocialProfileObj
+            </a>
+        </li>
+        <li  title="statusObj">
+            <a href="statusobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                statusObj
+            </a>
+        </li>
+        <li  title="StreamObj">
+            <a href="streamobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                StreamObj
+            </a>
+        </li>
+        <li  title="streamProgressObj">
+            <a href="streamprogressobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                streamProgressObj
+            </a>
+        </li>
+        <li  title="TaskLogObj">
+            <a href="tasklogobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                TaskLogObj
+            </a>
+        </li>
+        <li  title="TaskObj">
+            <a href="taskobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                TaskObj
+            </a>
+        </li>
+        <li  title="taskProgressObj">
+            <a href="taskprogressobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                taskProgressObj
+            </a>
+        </li>
+        <li  title="timePeriodObj">
+            <a href="timeperiodobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                timePeriodObj
+            </a>
+        </li>
+        <li  title="UploadFileObj">
+            <a href="uploadfileobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                UploadFileObj
+            </a>
+        </li>
+        <li  title="userAttendanceObj">
+            <a href="userattendanceobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                userAttendanceObj
+            </a>
+        </li>
+        <li  title="userAttStatObj">
+            <a href="userattstatobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                userAttStatObj
+            </a>
+        </li>
+        <li  title="UserBasicObj">
+            <a href="userbasicobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                UserBasicObj
+            </a>
+        </li>
+        <li  title="userDailyAttendanceObj">
+            <a href="userdailyattendanceobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                userDailyAttendanceObj
+            </a>
+        </li>
+        <li  title="UserObj">
+            <a href="userobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                UserObj
+            </a>
+        </li>
+        <li  title="userResponseObj">
+            <a href="userresponseobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                userResponseObj
+            </a>
+        </li>
+        <li  title="userStatusObj">
+            <a href="userstatusobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                userStatusObj
+            </a>
+        </li>
+        <li  title="userStatusStatObj">
+            <a href="userstatusstatobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                userStatusStatObj
+            </a>
+        </li>
+        <li  title="UserType">
+            <a href="usertype.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                UserType
+            </a>
+        </li>
+        <li  title="Verify">
+            <a href="verify.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Verify
+            </a>
+        </li>
+        <li  title="WebSpaceObj">
+            <a href="webspaceobj.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                WebSpaceObj
+            </a>
+        </li>
+        <li  title="__Directive">
+            <a href="directive.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __Directive
+            </a>
+        </li>
+        <li  title="__EnumValue">
+            <a href="enumvalue.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __EnumValue
+            </a>
+        </li>
+        <li  title="__Field">
+            <a href="field.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __Field
+            </a>
+        </li>
+        <li  title="__InputValue">
+            <a href="inputvalue.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __InputValue
+            </a>
+        </li>
+        <li class="slds-is-active" title="__Schema">
+            <a href="schema.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __Schema
+            </a>
+        </li>
+        <li  title="__Type">
+            <a href="type.spec.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                __Type
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
+    <h4 class="slds-text-title--caps slds-p-around--medium">Directives</h4>
+    <ul>
+        <li  title="include">
+            <a href="include.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                include
+            </a>
+        </li>
+        <li  title="skip">
+            <a href="skip.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                skip
+            </a>
+        </li>
+    </ul>
+</div>
+        </div>
+    </nav>
+    <main><section class="title slds-theme--inverse">
+    <div class="container slds-grid">
+        <div>
+        <button class="slds-button js-toggle-navigation less-than-medium">
+            <i class="material-icons slds-button__icon slds-button__icon--left">menu</i>
+            <span class="slds-text-title--caps">Types<span>
+        </button>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+        <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
+        <h1 class="slds-text-heading--large">__Schema</h1>
+        <div class="slds-text-body--regular"><p>A GraphQL Schema defines the capabilities of a GraphQL server. It exposes all available types and directives on the server, as well as the entry points for query, mutation and subscription operations.</p>
+</div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2 id="graphql-schema-definition" class="graphdoc-section__title slds-text-heading--medium slds-m-top--small">
+            <a href="#graphql-schema-definition">
+                <i class="material-icons">link</i>
+            </a>
+            GraphQL Schema definition
+        </h2>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">__Schema</span> {</li><li></li><li><span class="tab"><span class="comment line">#   A list of all types supported by this server.</span></span></li><li><span class="tab"><span class="meta">types</span>: [<a class="support type" href="type.spec.html">__Type</a>!]! </span></li><li></li><li><span class="tab"><span class="comment line">#   The type that query operations will be rooted at.</span></span></li><li><span class="tab"><span class="meta">queryType</span>: <a class="support type" href="type.spec.html">__Type</a>! </span></li><li></li><li><span class="tab"><span class="comment line">#   If this server supports mutation, the type that mutation operations will be </span></span></li><li><span class="tab"><span class="comment line">#   rooted at.</span></span></li><li><span class="tab"><span class="meta">mutationType</span>: <a class="support type" href="type.spec.html">__Type</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   If this server support subscription, the type that subscription operations will </span></span></li><li><span class="tab"><span class="comment line">#   be rooted at.</span></span></li><li><span class="tab"><span class="meta">subscriptionType</span>: <a class="support type" href="type.spec.html">__Type</a> </span></li><li></li><li><span class="tab"><span class="comment line">#   A list of all directives supported by this server.</span></span></li><li><span class="tab"><span class="meta">directives</span>: [<a class="support type" href="directive.spec.html">__Directive</a>!]! </span></li><li>}</li></ul></code>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <h2 id="require-by" class="graphdoc-section__title slds-text-heading--medium slds-m-top--small">
+            <a href="#require-by">
+                <i class="material-icons">link</i>
+            </a>
+            Require by
+        </h2>
+        <div class="require-by anyone">This element is not required by anyone</div>
+    </div>
+</section>
+<footer>
+<div class="container slds-p-around--large">
+    <p class="slds-text-align--right slds-text-title--caps">
+        Generated with <a href="https://github.com/2fd/graphdoc#readme" target="_blank">graphdoc 2.4.0</a>
+    </p>
+</div>
+</footer>
+</main>
+    <script src="./scripts/focus-active.js"></script>
+    <script src="./scripts/filter-types.js"></script>
+    <script src="./scripts/toggle-navigation.js"></script>
+</body>
